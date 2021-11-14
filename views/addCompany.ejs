@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Company</title>
+    <link rel="stylesheet" href="stylesheets/Style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Enter Company details</h2>
+            <form id="register" method="POST" action="/addCompany">
+               
+                <label>Name</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+                <br><br>
+                <label>Description</label>
+                <br>
+                <textarea name="description" id="description" cols="41" rows="15" required > </textarea>
+                <br><br>
+                <label>Eligibility</label>
+                <br>
+                <textarea name="eligibility" id="eligibility" cols="41" rows="15" required> </textarea>
+                <br><br>
+                <label>Form</label>
+                <br>
+                <input type="text" name="form" id="form" required>
+                 <br><br>
+                 <label>Image</label>
+                 <br>
+                 <input type="text" name="img" id="img" required>
+                 <br><br>
+                 <label>Company Website</label>
+                 <br>
+                 <input type="text" name="website" id="website" required>
+                  <br><br>
+                 <label>Location</label>
+                 <br>
+                 <input type="text" name="location" id="location" required >
+                 <br><br>
+                 <label>Salary</label>
+                 <br>
+                 <input type="text" name="salary" id="salary" required>
+                 <br><br>
+                 <label>Last Date to register</label>
+                 <br>
+                 <input type="text" name="lastDate" id="lastDate" required>
+                 <br><br>
+                 <input type="submit" value="Submit"  id="Register" >
+         </form>
+        </div>
+    </div>
+</body>
+
+</html>

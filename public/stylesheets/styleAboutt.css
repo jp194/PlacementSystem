@@ -1,0 +1,64 @@
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+body{
+    background: url(bg.png) no-repeat left;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(37, 37, 37, 0.986);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+    text-decoration: solid;
+    text-decoration: underline;
+}
